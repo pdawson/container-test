@@ -116,7 +116,7 @@ class Container implements ContainerInterface, ArrayAccess
                 return new $abstract(...$parameters);
             }
 
-            $arguments = array_slice(array_merge($parameters, $arguments), 0, count($arguments));
+            $arguments = array_replace($arguments, $parameters);
 
             $dependencies = array_map(
                 function (mixed $parameter) {
