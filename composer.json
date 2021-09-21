@@ -1,0 +1,24 @@
+{
+    "name": "pdawson/container-test",
+    "description": "A simple DI container to explain the theory",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "pdawson",
+            "email": "me@pauldawson.me"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "symfony/var-dumper": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaulDawson\\ContainerTest\\": "src/"
+        }
+    }
+}
