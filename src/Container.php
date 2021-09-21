@@ -46,7 +46,7 @@ class Container implements ContainerInterface, ArrayAccess
      */
     public static function instance(): self
     {
-        return self::$instance ?? new self();
+        return self::$instance ??= new self();
     }
 
     /**
