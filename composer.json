@@ -2,11 +2,13 @@
     "name": "pdawson/container-test",
     "description": "A simple DI container to explain the theory",
     "minimum-stability": "stable",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
-            "name": "pdawson",
-            "email": "me@pauldawson.me"
+            "name": "Paul Dawson",
+            "email": "me@pauldawson.me",
+            "role": "Developer",
+            "homepage": "https://www.pauldawson.me"
         }
     ],
     "require": {
